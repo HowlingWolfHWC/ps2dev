@@ -54,13 +54,13 @@ jobs:
           - runs-on: ubuntu-22.04-arm
             architecture: arm64
             shell: bash
-            container: "ubuntu:22.04-arm"
+            container: "ubuntu:20.04"
             container-options: "--user 0"
             macos-package-manager: null
           - runs-on: ubuntu-24.04-arm
             architecture: arm64
             shell: bash
-            container: "ubuntu:24.04-arm"
+            container: "ubuntu:20.04"
             container-options: "--user 0"
             macos-package-manager: null
           - runs-on: windows-latest
